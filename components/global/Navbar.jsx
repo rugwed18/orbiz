@@ -1,10 +1,14 @@
 "use client"
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useRouter, usePathname } from "next/navigation";
 import Image from "next/image";
 
 
 export default function Navbar(){
+
+    const pathname = usePathname();
+    const router = useRouter();
 
     const [activeLink , setActiveLink ] = useState("Home");
 
@@ -14,7 +18,20 @@ export default function Navbar(){
         { name: 'Who we are', href: '/about' },
         { name: 'Careers', href: '/careers' },
         { name: 'Contact Us', href: '/contact' }
-    ]
+    ];
+
+    useEffect(() => {
+        if(pathname === "/"){ setActiveLink("Home"); }
+        else if(pathname === "/services"){ setActiveLink("Our services"); }
+        else if(pathname === "/about"){ setActiveLink("Who we are"); }
+        else if(pathname === "/careers"){ setActiveLink("Careers"); }
+        else if(pathname === "/contact"){ setActiveLink("Contact Us"); }
+    },[pathname]);
+
+    const handleNavClick = (item) => {
+        setActiveLink(item.name);
+        router.push(item.href);
+    }
 
     return(
         <nav className="w-full md:h-[94px] bg-[#F5F5F5] z-50 flex justify-between md:px-14 items-center mx-auto">
@@ -32,7 +49,7 @@ export default function Navbar(){
                     {navItems.map((item) => (
                             <button
                             key={item.name}
-                            onClick={() => setActiveLink(item.name)}
+                            onClick={() => handleNavClick(item)}
                             className={`${
                     activeLink === item.name 
                       ? 'nav-active-text px-4 py-2'
