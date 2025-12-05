@@ -17,16 +17,14 @@ export default function Navbar(){
     ]
 
     return(
-        <nav className="w-full md:h-[94px] bg-[#F5F5F5] z-50">
-            <div className="flex items-center justify-between md:px-14 px-8 py-4 mx-auto">
-                
-                <div>
+        <nav className="w-full md:h-[94px] bg-[#F5F5F5] z-50 flex justify-between md:px-14 items-center mx-auto">
+              <div>
                     <Link href="/" className="flex items-center">
                     <Image
                         src="/orbiz_logo.png"
                         alt="Company Logo"
                         width={120}
-                        height={66}
+                        height={60}
                     />
                     </Link>
                 </div>
@@ -37,15 +35,14 @@ export default function Navbar(){
                             onClick={() => setActiveLink(item.name)}
                             className={`${
                     activeLink === item.name 
-                      ? 'bg-[#1A2B6D] text-white px-4 py-2'
-                      : 'text-[#1A2B6D]'
+                      ? 'nav-active-text px-4 py-2'
+                      : 'nav-text'
                   }`}>
                                 {item.name}
                             </button>
                         ))}
 
                 </div>
-            </div>
         </nav>
     );
 }

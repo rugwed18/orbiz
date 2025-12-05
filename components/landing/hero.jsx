@@ -1,0 +1,51 @@
+export default function Hero() {
+  return (
+    <section className="flex flex-row w-full ">
+      <div className="flex flex-col w-1/2 justify-center section-block-top container-padding gap-10">
+        <h1 className="title">
+          Innovation to Execution: Accelerate your Technology Development
+        </h1>
+        <p className="desc">
+          At Orbiz, we are passionate about helping businesses like yours
+          leverage technology to drive growth and improve efficiency. Our team
+          of experienced consultants and engineers provide customized IT
+          solutions tailored to your specific needs. Let us help you take your
+          business to the next level.
+        </p>
+        <button className="red-btn mt-10">Learn More</button>
+      </div>
+
+      <div className="flex flex-col w-1/2 relative">
+        <img
+          src="/landing/top-box.png"
+          alt="top-box-image"
+          className="absolute top-0 left-26"
+        />
+        <div className="relative flex flex-row">
+            <div className="flex flex-col">
+                <img
+                    src="/landing/hero1.png"
+                    alt="mid-box-left-image"
+                    className="absolute top-0 right-43 w-78"
+                />
+                <img
+                    src="/landing/hero2.png"
+                    alt="mid-box-right-image"
+                    className="absolute top-61 right-75 w-75"
+                />
+            </div>
+            <img
+                src="/landing/hero3.png"
+                alt="mid-box-image"
+                className="absolute right-29 h-109"
+            />
+        </div>
+        <img
+            src="/landing/buttom-box.png"
+            alt="bottom-box-image"
+            className="absolute bottom-0 right-0"
+        />
+      </div>
+    </section>
+  );
+}
