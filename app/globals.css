@@ -131,8 +131,6 @@ body {
     @apply mb-6 md:mb-8 3xl:mb-10;
   }
 
-
-
   .nav-text {
     @apply text-[16px] font-poppins text-[#1A2B6D] ;
   }
@@ -141,17 +139,47 @@ body {
     @apply text-[16px] font-poppins text-[#FFFFFF] bg-[#1A2B6D] 
   }
 
-  .title {
+  .fl1 {
   @apply text-[26px] leading-[44px] md:text-[32px] font-poppins-semibold text-[#1A2B6D] ;
 }
 
-  .desc {
-    @apply text-[16px] font-poppins-light text-[#1A2B6D] ;
+  .fl2 {
+    @apply text-[22px] md:text-[28px] font-poppins-medium text-[#1A2B6D]
+  }
+
+  .fl3 {
+    @apply text-[14px] md:text-[18px] font-poppins-medium text-[#D41317] ;
+  }
+
+  .fl4 {
+    @apply text-[26px] md:text-[32px] font-poppins-medium text-[#FFFFFF] ;
+  }
+
+  .fl5 {
+    @apply text-[16px] md:text-[20px] font-poppins-bold text-[#1A2B6D] ;
+  }
+
+  .f16 {
+    @apply text-[22px] md:text-[28px] font-poppins-semibold text-[#1A2B6D]
+  }
+
+  .fl7 {
+    @apply text-[12px] md:text-[16px] font-poppins text-[#1A2B6D] ;
+  }
+
+  .fl8 {
+    @apply text-[12px] md:text-[18px] font-poppins-light text-[#1A2B6D] ;
+  }
+
+  .fl9 {
+    @apply text-[12px] text-[16] font-poppins-light text-[#1A2B6D] ;
   }
 
   .red-btn {
     @apply text-[18px] font-poppins-semibold text-[#FFFFFF] bg-[#D41317] rounded-[10px] px-8 py-2 w-fit
   }
+
+  
 
 
 }
