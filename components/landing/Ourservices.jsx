@@ -94,7 +94,7 @@ export default function Ourservices() {
           >
             {servicesData.map((service) => (
               <SwiperSlide key={service.id} className="w-auto">
-                <div className="flex flex-col h-full bg-white shadow-[0_0_15px_10px_rgba(26,43,109,0.12)] hover:shadow-lg transition-shadow duration-400 p-7 gap-6 ">
+                <div className="flex flex-col h-full bg-white shadow-[0_0_15px_10px_rgba(26,43,109,0.12)] hover:shadow transition-shadow duration-400 p-6 gap-6 ">
                   <div className="w-full md:w-16 flex justify-center">
                     <img
                       src={service.icon}
