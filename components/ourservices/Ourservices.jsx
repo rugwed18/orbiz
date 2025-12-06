@@ -21,7 +21,7 @@ export default function Ourservices() {
           <div className="w-full md:w-[65%] flex flex-col">
             <p className="fl2 mb-4">Platform Strategy</p>
             <div className="w-full h-px bg-[#1A2B6D4D] mb-6"></div>
-            <p className="fl8 mb-12">
+            <p className="fl8 mb-12  ">
               Craft a winning business approach with our Platform Strategy services at Orbiz.
               We specialize in developing strategic frameworks that leverage platforms to enhance
               your organization's reach, engagement, and overall effectiveness. Our experts work
@@ -44,7 +44,7 @@ export default function Ourservices() {
       </div>
 
 
-      <div className="w-full flex flex-col container-padding section-block-bottom ">
+      <div className="w-full flex flex-col px-4  2xl:px-12 section-block-bottom ">
 
         <div className="bg-[#FFFFFF] p-8 md:p-12 flex flex-col md:flex-row-reverse gap-12">
 
@@ -115,7 +115,7 @@ export default function Ourservices() {
       </div>
 
 
-      <div className="w-full flex flex-col container-padding section-block-bottom ">
+      <div className="w-full flex flex-col px-4  2xl:px-12 section-block-bottom ">
 
         <div className="bg-[#FFFFFF] p-8 md:p-12 flex flex-col md:flex-row-reverse gap-12">
 
@@ -184,7 +184,7 @@ export default function Ourservices() {
       </div>
 
 
-      <div className="w-full flex flex-col container-padding section-block-bottom ">
+      <div className="w-full flex flex-col px-4  2xl:px-12 section-block-bottom ">
 
         <div className="bg-[#FFFFFF] p-8 md:p-12 flex flex-col md:flex-row-reverse gap-12">
 

@@ -4,7 +4,7 @@ export default function Whoweare() {
             <div className="container-padding section-block-padding">
                 <p className="fl1 flex justify-center">Providing Valuable Solution:</p>
                 <p className="fl1 flex justify-center pb-8">Accelerating Growth Swiftly</p>
-                <div className="w-full max-w-[950px] mx-auto px-4 text-center space-y-1 md:space-y-2">
+                <div className="w-full max-w-[950px] md:max-w-[1100px] mx-auto px-8 text-center space-y-1 md:space-y-2">
                     <p className="fl8 ">
                         At Orbiz, we pride ourselves on delivering high-quality service to every client.
                         Our goal is to exceed your expectations and provide
@@ -15,7 +15,7 @@ export default function Whoweare() {
                         advancements to ensure that our clients
                     </p>
 
-                    <p className="fl8">
+                    <p className="fl8 flex justify-center">
                         have access to the most cutting-edge solutions available.
                     </p>
                 </div>
@@ -120,7 +120,7 @@ export default function Whoweare() {
                                 Meena Sivan
                             </h3>
 
-                            <p className="fl8 flex justify-center md:px-[120px]">
+                            <p className="fl8 flex justify-center md:px-[50px]">
                                 Business & Technology Management executive with entrepreneurial
                                 background and global business management. Passionate about building
                                 high performing product and engineering teams and delivering outcome
@@ -141,7 +141,7 @@ export default function Whoweare() {
                                 Suma Pillai
                             </h3>
 
-                            <p className="fl8 flex justify-center md:px-[120px]">
+                            <p className="fl8 flex justify-center md:px-[50px]">
                                 A dedicated and results-driven professional with 18+ years of
                                 expertise spanning Finance & Accounts, Human Resource Management,
                                 General Administration, Operations, Import/Export, Statutory

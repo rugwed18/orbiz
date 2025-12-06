@@ -1,3 +1,5 @@
+import LeafletMap from "@/components/map/LeafletMap";
+
 export default function Contactus() {
     return (
         <main className="min-h-screen">
@@ -43,8 +45,8 @@ export default function Contactus() {
 
 
 
-                        <div className="w-full   md:w-[60%]  md:p-10">
-                            <div className=" p-8 bg-white ">
+                        <div className="w-full   md:w-[60%] px-4 pb-4 md:p-10">
+                            <div className=" p-8 bg-white  ">
                                 <div className="flex flex-col md:flex-row gap-4 mb-4">
                                     <input
                                         type="text"
@@ -81,47 +83,69 @@ export default function Contactus() {
                     </div>
                 </div>
             </div>
+            
             <div className="container-padding section-block-bottom">
                 <p className="fl1 flex justify-center">Global contact details</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-16">
-                <div className="bg-[#1A2B6D]  p-8 ">
-                    <p className="flex items-center"><img src="\icons\mail.svg" className="w-10 h-10" alt="Chat Icon" />
-                        <span className=" fl1 !text-white  ">Chat WIth US</span></p>
 
-                    <p className="fl8 !text-white">
-                        Email: <a href="mailto:contact@orbiz.one" className="underline">contact@orbiz.one</a>
-                    </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-16 container-padding">
+                
+                <div className="bg-[#13296A] text-white p-8 flex flex-col justify-between min-h-[220px]">
+                    <div>
+                        <div className="flex items-center gap-4 mb-4">
+                            <img src="/icons/mail.svg" className="w-10 h-10" alt="Chat Icon" />
+                            <h3 className="text-xl font-semibold">Chat with Us</h3>
+                        </div>
+                        <p className="fl8 !text-white">
+                            Email:&nbsp;
+                            <a href="mailto:contact@orbiz.one" className="underline">
+                                contact@orbiz.one
+                            </a>
+                        </p>
+                    </div>
                 </div>
 
-                <div className="bg-[#13296A] text-white p-8 rounded-md flex flex-col gap-4 relative">
-                    <img src="\icons\job.svg" className="w-10 h-10" alt="Job Icon" />
-                    <h3 className="text-xl font-semibold">Job Seekers</h3>
-
-                    <p className="text-sm leading-relaxed">
-                        Please refer following link to know
-                        more about Orbiz culture and career
-                        opportunities.
-                    </p>
-
+                
+                <div className="bg-[#1A2B6D] text-white p-8 rounded-md flex flex-col justify-between min-h-[220px]">
+                    <div>
+                        <div className="flex items-center gap-4 mb-4">
+                            <img src="/icons/job.svg" className="w-10 h-10" alt="Job Icon" />
+                            <h3 className="text-xl font-semibold">Job Seekers</h3>
+                        </div>
+                        <p className="text-sm leading-relaxed">
+                            Please refer following link to know
+                            more about Orbiz culture and career
+                            opportunities.
+                        </p>
+                    </div>
                     <div className="mt-4">
-                        <button className="text-sm font-medium flex items-center gap-2">
+                        <button className="text-sm font-medium flex items-center gap-2 text-white/90 hover:text-white">
                             Learn More
                             <span className="text-lg">→</span>
                         </button>
                     </div>
                 </div>
-                <div className="bg-[#13296A] text-white p-8 rounded-md flex flex-col gap-4">
-                    <img src="\icons\location2.svg" className="w-10 h-10" alt="Location Icon" />
-                    <h3 className="fl1 !text-white">Head Office</h3>
 
-                    <p className="fl8 !text-white">
-                        Orbiz Analytics India Pvt. Ltd.<br />
-                        Plot No. 52, Suman Ankur complex,<br />
-                        Shayadri Farm, Baner Road, Baner<br />
-                        Pune 411045
-                    </p>
+                
+                <div className="bg-[#13296A] text-white p-8 rounded-md flex flex-col justify-between min-h-[220px]">
+                    <div>
+                        <div className="flex items-center gap-4 mb-4">
+                            <img src="/icons/location.svg" className="w-10 h-10" alt="Location Icon" />
+                            <h3 className="text-xl font-semibold">Head Office</h3>
+                        </div>
+                        <p className="fl8 !text-white  text-sm leading-relaxed">
+                            Orbiz Analytics India Pvt. Ltd.<br />
+                            Plot No. 52, Suman Ankur complex,<br />
+                            Shayadri Farm, Baner Road, Baner<br />
+                            Pune 411045
+                        </p>
+                    </div>
                 </div>
+            </div>
+
+            <div className="container-padding section-block-padding  mb-20">
+                <p className="fl1 flex justify-center section-block-bottom">Our Location</p>
+                <LeafletMap />
             </div>
 
         </main>
