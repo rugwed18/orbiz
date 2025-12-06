@@ -39,7 +39,7 @@ export default function Navbar(){
                     <Link href="/" className="flex items-center">
                     <Image
                         src="/orbiz_logo.png"
-                        alt="Company Logo"
+                        alt="Orbiz"
                         width={120}
                         height={60}
                     />
