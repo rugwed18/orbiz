@@ -51,28 +51,28 @@ export default function Contactus() {
                                     <input
                                         type="text"
                                         placeholder="First Name *"
-                                        className="w-full bg-[#f5f5f5] p-3"
+                                        className="w-full fl8 bg-[#f5f5f5] p-3"
                                     />
                                     <input
                                         type="text"
                                         placeholder="Last Name *"
-                                        className="w-full bg-[#f5f5f5] p-3"
+                                        className="w-full fl8 bg-[#f5f5f5] p-3"
                                     />
                                 </div>
                                 <input
                                     type="email"
                                     placeholder="Email Id *"
-                                    className="w-full bg-[#f5f5f5] p-3 mb-4 "
+                                    className="w-full fl8 bg-[#f5f5f5] p-3 mb-4 "
                                 />
                                 <input
                                     type="text"
                                     placeholder="Company Name"
-                                    className="w-full  mb-4 bg-[#f5f5f5] p-3"
+                                    className="w-full fl8 mb-4 bg-[#f5f5f5] p-3"
                                 />
                                 <textarea
                                     rows={5}
                                     placeholder="Message"
-                                    className="w-full  mb-6 bg-[#f5f5f5] p-3"
+                                    className="w-full fl8 mb-6 bg-[#f5f5f5] p-3"
                                 ></textarea>
                                 <button className="w-full fl3 bg-[#1A2B6D] !text-white py-3 ">
                                     Send
@@ -84,21 +84,21 @@ export default function Contactus() {
                 </div>
             </div>
             
-            <div className="container-padding section-block-bottom">
+            <div className="container-padding title-content-gap">
                 <p className="fl1 flex justify-center">Global contact details</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-16 container-padding">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-20 container-padding min-h-[320px]">
                 
-                <div className="bg-[#13296A] text-white p-8 flex flex-col justify-between min-h-[220px]">
+                <div className="bg-[#13296A] text-white px-14 py-18 flex flex-col justify-between items-center">
                     <div>
                         <div className="flex items-center gap-4 mb-4">
                             <img src="/icons/mail.svg" className="w-10 h-10" alt="Chat Icon" />
-                            <h3 className="text-xl font-semibold">Chat with Us</h3>
+                            <h3 className="fl2 !text-white">Chat with Us</h3>
                         </div>
                         <p className="fl8 !text-white">
                             Email:&nbsp;
-                            <a href="mailto:contact@orbiz.one" className="underline">
+                            <a href="mailto:contact@orbiz.one" className="underline fl8 !text-white">
                                 contact@orbiz.one
                             </a>
                         </p>
@@ -106,20 +106,20 @@ export default function Contactus() {
                 </div>
 
                 
-                <div className="bg-[#1A2B6D] text-white p-8 rounded-md flex flex-col justify-between min-h-[220px]">
-                    <div>
+                <div className="bg-[#1A2B6D] text-white px-20 py-18 rounded-md flex flex-col justify-between  ">
+                    <div className="">
                         <div className="flex items-center gap-4 mb-4">
                             <img src="/icons/job.svg" className="w-10 h-10" alt="Job Icon" />
-                            <h3 className="text-xl font-semibold">Job Seekers</h3>
+                            <h3 className="fl2 !text-white">Job Seekers</h3>
                         </div>
-                        <p className="text-sm leading-relaxed">
+                        <p className="fl8 !text-white">
                             Please refer following link to know
                             more about Orbiz culture and career
                             opportunities.
                         </p>
                     </div>
-                    <div className="mt-4">
-                        <button className="text-sm font-medium flex items-center gap-2 text-white/90 hover:text-white">
+                    <div className="mt-4 ">
+                        <button className="fl8 flex items-center gap-2   !text-white ">
                             Learn More
                             <span className="text-lg">→</span>
                         </button>
@@ -127,13 +127,13 @@ export default function Contactus() {
                 </div>
 
                 
-                <div className="bg-[#13296A] text-white p-8 rounded-md flex flex-col justify-between min-h-[220px]">
+                <div className="bg-[#13296A] text-white px-14 py-18 rounded-md flex flex-col justify-between items-center ">
                     <div>
                         <div className="flex items-center gap-4 mb-4">
                             <img src="/icons/location.svg" className="w-10 h-10" alt="Location Icon" />
-                            <h3 className="text-xl font-semibold">Head Office</h3>
+                            <h3 className="fl2 !text-white">Head Office</h3>
                         </div>
-                        <p className="fl8 !text-white  text-sm leading-relaxed">
+                        <p className="fl8 !text-white ">
                             Orbiz Analytics India Pvt. Ltd.<br />
                             Plot No. 52, Suman Ankur complex,<br />
                             Shayadri Farm, Baner Road, Baner<br />
@@ -143,8 +143,8 @@ export default function Contactus() {
                 </div>
             </div>
 
-            <div className="container-padding section-block-padding  mb-20">
-                <p className="fl1 flex justify-center section-block-bottom">Our Location</p>
+            <div className="container-padding section-block-top mb-20">
+                <p className="fl1 flex justify-center title-content-gap ">Our Location</p>
                 <LeafletMap />
             </div>
 
