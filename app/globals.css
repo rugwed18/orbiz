@@ -168,11 +168,11 @@ body {
   }
 
   .fl8 {
-    @apply text-[12px] md:text-[16px] text-justify font-poppins-light text-[#1A2B6D] ;
+    @apply text-[12px] md:text-[16px] font-poppins-light text-[#1A2B6D] ;
   }
 
   .red-btn {
-    @apply text-[18px] font-poppins-semibold text-[#FFFFFF] bg-[#D41317] rounded-[10px] px-8 py-2 w-fit
+    @apply text-[18px] font-poppins-medium text-[#FFFFFF] bg-[#D41317] rounded-[10px] px-8 py-2 w-fit
   }
 
 }

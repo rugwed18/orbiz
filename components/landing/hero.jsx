@@ -2,7 +2,7 @@
 
 export default function Hero() {
   return (
-    <section className="flex flex-col md:flex-row w-full min-h-screen md:min-h-0 md:h-128 text-center md:text-left gap-10 section-block-padding container-padding">
+    <section className="flex flex-col md:flex-row w-full text-center md:text-left gap-10 section-block-padding container-padding">
       <div className="flex flex-col w-full md:w-1/2 justify-center gap-10">
         <h1 className="fl1">
           Innovation to Execution: Accelerate your Technology Development
@@ -17,12 +17,13 @@ export default function Hero() {
         <button className="red-btn mt-0 md:mt-10 mx-auto md:mx-0">Learn More</button>
       </div>
 
-      <div className="flex flex-col w-full md:w-1/2 relative">
-        <img
+      <div className="flex flex-col w-full md:w-1/2 relative flex-1">
+       <div className="relative w-full md:h-[475px] 3xl:h-[500px] h-[350px]">
+        {/* <img
           src="/landing/top-box.png"
           alt="top-box-image"
-          className="absolute top-0 left-26"
-        />
+          className="absolute top-0 left-2"
+        /> */}
         <div className="relative flex flex-row">
             <div className="flex flex-col">
                 <img
@@ -42,11 +43,12 @@ export default function Hero() {
                 className="absolute right-29 h-109"
             />
         </div>
-        <img
+        {/* <img
             src="/landing/buttom-box.png"
             alt="bottom-box-image"
             className="absolute bottom-0 right-0"
-        />
+        /> */}
+        </div>
       </div>
     </section>
   );

@@ -17,7 +17,7 @@ export default function Ourservices() {
 
   return (
     <main className="section-block-padding bg-[#F5F5F5] container-padding">
-      <h1 className="fl1 text-center title-content-gap">Our services</h1>
+      <h1 className="fl1 text-center title-content-gap">Our Services</h1>
       <p className="fl8 text-center md:max-w-1/2 mx-auto">
         We offer a range of IT consulting and services to help your business
         succeed. Whether you need cloud solutions, managed IT services, disaster
@@ -29,7 +29,7 @@ export default function Ourservices() {
         {servicesData.map((service) => (
           <div
             key={service.id}
-            className="flex flex-col h-full bg-white shadow-[0_0_15px_10px_rgba(26,43,109,0.12)] hover:shadow transition-shadow duration-400 p-6 gap-6 "
+            className="flex flex-col h-full bg-white hover:shadow-[0_0_15px_10px_rgba(26,43,109,0.12)] transition-shadow duration-400 p-6 gap-6 "
           >
             <div className="w-12 md:w-16">
               <img
