@@ -1,6 +1,6 @@
 export default function Ourservices() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen pt-15 md:pt-10">
       <div className="container-padding section-block-padding">
         <p className="fl1 flex justify-center">Partner with us, and let Innovation</p>
         <p className="fl1 flex justify-center"> be the Propulsive force</p>
@@ -35,9 +35,9 @@ export default function Ourservices() {
               let's embark on a journey to elevate your business to new heights of digital success.
             </p>
             <button
-              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center border border-[#1A2B6D80]  text-[#1A2B6D] gap-2">
+              className="fl7 w-[150px] h-[55px] mt-8 bg-[#1A2B6D] !text-white flex items-center justify-center gap-2">
               Connect
-              <img src='icons\arrow1.svg' className="w-5 h-5" />
+              <img src='icons\arrow2.svg' className="w-5 h-5" />
             </button>
           </div>
         </div>
@@ -71,9 +71,9 @@ export default function Ourservices() {
               the demands of your evolving business landscape.
             </p>
             <button
-              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center border border-[#1A2B6D80]  text-[#1A2B6D] gap-2">
+              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2">
               Connect
-              <img src='icons\arrow1.svg' className="w-5 h-5" />
+              <img src='icons\arrow2.svg' className="w-5 h-5" />
             </button>
           </div>
         </div>
@@ -106,9 +106,9 @@ export default function Ourservices() {
               protects your business and instils trust among your stakeholders.
             </p>
             <button
-              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center border border-[#1A2B6D80]  text-[#1A2B6D] gap-2">
+              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2">
               Connect
-              <img src='icons\arrow1.svg' className="w-5 h-5" />
+              <img src='icons\arrow2.svg' className="w-5 h-5" />
             </button>
           </div>
         </div>
@@ -141,9 +141,9 @@ export default function Ourservices() {
               drive business success. Let's embark on a journey of innovation together.
             </p>
             <button
-              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center border border-[#1A2B6D80]  text-[#1A2B6D] gap-2">
+              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2">
               Connect
-              <img src='icons\arrow1.svg' className="w-5 h-5" />
+              <img src='icons\arrow2.svg' className="w-5 h-5" />
             </button>
           </div>
         </div>
@@ -175,9 +175,9 @@ export default function Ourservices() {
               us to turn your data into a strategic asset that drives success in the ever-evolving digital landscape.
             </p>
             <button
-              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center border border-[#1A2B6D80]  text-[#1A2B6D] gap-2">
+              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2">
               Connect
-              <img src='icons\arrow1.svg' className="w-5 h-5" />
+              <img src='icons\arrow2.svg' className="w-5 h-5" />
             </button>
           </div>
         </div>
@@ -210,9 +210,9 @@ export default function Ourservices() {
               future-ready integrations that propel your business toward enhanced collaboration and sustained growth.
             </p>
             <button
-              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center border border-[#1A2B6D80]  text-[#1A2B6D] gap-2">
+              className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2">
               Connect
-              <img src='icons\arrow1.svg' className="w-5 h-5" />
+              <img src='icons\arrow2.svg' className="w-5 h-5" />
             </button>
           </div>
         </div>

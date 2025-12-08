@@ -20,7 +20,7 @@ const images = [
 
 export default function Careers() {
   return (
-    <main className="min-h-screen container-padding">
+    <main className="min-h-screen container-padding pt-15 md:pt-10">
       <div className="section-block-padding">
         <p className="fl1 !text-[18px] md:!text-[32px] flex justify-center pb-8">
           Orbiz: Where Passion Meets Progress
@@ -41,7 +41,7 @@ export default function Careers() {
             professional milieu for your aspirations.
           </p>
         </div>
-        <div className="container-padding section-block-padding">
+        <div className="container-padding section-block-top">
           <button className="red-btn  mx-auto block ">Start now</button>
         </div>
       </div>
@@ -50,29 +50,52 @@ export default function Careers() {
         <div className="w-full ">
           <div className="w-full flex flex-col md:flex-row gap-10">
             <div className="flex flex-col w-full md:w-1/2 relative my-30">
-              {/* <img
-                                src="/landing/top-box.png"
-                                alt="top-box-image"
-                                className="absolute top-0 left-26"
-                            />
-                            <div className=" relative  flex flex-row -right-60 z-10 !bg-[#DFE4F8]">
-                                <div className="flex flex-col">
-                                    <img
-                                        src="\images\careees1.png"
-                                        alt="mid-box-image"
-                                        className="absolute "
-                                    />
-                                    <div>
+              <div className="relative w-full  px-3 flex justify-center">
+                <div className="relative w-full max-w-lg mx-auto">
+                  <div className="relative w-full">
+                    <img
+                      src="/images/bg1.png"
+                      alt="Background Shape"
+                      className="w-full h-auto object-contain"
+                    />
+
+                    <div className="absolute inset-0 flex flex-col left-30 mt-4 ">
+                      <div className="relative w-90  mb-6">
+                        <img
+                          src="/images/img2.png"
+                          className="w-full h-full  "
+                          alt="Team"
+                        />
+                      </div>
+
+                      <div className="text-center w-70">
+                        <h2 className="fl2 mb-2">
+                          Not just a Workplace;
+                        </h2>
+                        <p className="fl8">
+                          it’s a dynamic community where your enthusiasm for technology,
+                          commitment to continuous learning, and dedication to creating
+                          meaningful solutions align seamlessly with our ethos.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <img
+                    src="/images/top1.png"
+                    className="absolute -top-10 -left-6 w-16 md:w-50 -z-10"
+                    alt=""
+                  />
+                  <img
+                    src="/images/bottom1.png"
+                    className="absolute -bottom-8 -right-4 w-16 md:w-50 -z-10"
+                    alt=""
+                  />
+                </div>
+              </div>
 
 
-                                    </div>
-                                </div>
-                            </div>
-                            <img
-                                src="/landing/top-box.png"
-                                alt="bottom-box-image"
-                                className="absolute bottom-0 right-0"
-                            /> */}
+
             </div>
             <div className="w-full  bg-[#F5F5F5] md:w-1/2 py-4 md:p-10">
               <div className="w-full px-4">
