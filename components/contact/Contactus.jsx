@@ -2,8 +2,8 @@ import LeafletMap from "@/components/map/LeafletMap";
 
 export default function Contactus() {
     return (
-        <main className="min-h-screen section-block-padding">
-            <div className="container-padding ">
+        <main className="min-h-screen pt-15 md:pt-10 ">
+            <div className="container-padding section-block-top ">
                 <p className="fl1 flex justify-center title-content-gap">Contact Us</p>
             </div>
             <div className="container-padding section-block-bottom ">
@@ -90,7 +90,7 @@ export default function Contactus() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 md:px-20 container-padding min-h-[320px]">
                 
-                <div className="bg-[#13296A] text-white px-14 py-18 flex flex-col justify-between items-center">
+                <div className="bg-[#1A2B6D] text-white px-14 py-18 flex flex-col justify-between ">
                     <div>
                         <div className="flex items-center gap-4 mb-4">
                             <img src="/icons/mail.svg" className="w-10 h-10" alt="Chat Icon" />
@@ -106,7 +106,7 @@ export default function Contactus() {
                 </div>
 
                 
-                <div className="bg-[#1A2B6D] text-white px-20 py-18 rounded-md flex flex-col justify-between  ">
+                <div className="bg-[#1A2B6D] text-white px-14 py-18 rounded-md flex flex-col justify-between  ">
                     <div className="">
                         <div className="flex items-center gap-4 mb-4">
                             <img src="/icons/job.svg" className="w-10 h-10" alt="Job Icon" />
@@ -127,7 +127,7 @@ export default function Contactus() {
                 </div>
 
                 
-                <div className="bg-[#13296A] text-white px-14 py-18 rounded-md flex flex-col justify-between items-center ">
+                <div className="bg-[#13296A] text-white px-14 py-18 rounded-md flex flex-col justify-between  ">
                     <div>
                         <div className="flex items-center gap-4 mb-4">
                             <img src="/icons/location.svg" className="w-10 h-10" alt="Location Icon" />

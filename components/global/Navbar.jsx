@@ -36,7 +36,9 @@ export default function Navbar() {
     }
 
     return (
-        <nav className="w-full md:h-[94px] bg-[#F5F5F5] z-50 flex justify-between  items-center container-padding">
+        <nav className="w-[90vw]  md:w-full md:h-[94px] bg-[#F5F5F5] py-3 fixed z-[80] left-1/2 -translate-x-1/2 flex justify-between rounded-[12px] md:rounded-none items-center container-padding ">
+           
+
             <div>
                 <Link href="/" className="flex items-center">
                     <Image
@@ -48,7 +50,7 @@ export default function Navbar() {
                 </Link>
             </div>
 
-            <div className="hidden md:flex gap-8 item-center">
+            <div className="hidden md:flex gap-8 item-center ">
                 {navItems.map((item) => (
                     <button
                         key={item.name}
@@ -73,12 +75,12 @@ export default function Navbar() {
 
 
             {menuOpen && (
-                <div className="absolute top-[70px] left-0 w-full bg-[#F5F5F5]  flex flex-col gap-3 p-6 md:hidden">
+                <div className="absolute top-[70px] left-0 w-full bg-[#F5F5F5]  rounded-[12px] flex flex-col gap-3 py-6 px-8 md:hidden">
                     {navItems.map((item) => (
                         <button
                             key={item.name}
                             onClick={() => handleNavClick(item)}
-                            className={`text-left w-full ${activeLink === item.name ? "nav-active-text" : "nav-text"
+                            className={`text-left  w-full ${activeLink === item.name ? "nav-active-text" : "nav-text"
                                 }`}
                         >
                             {item.name}
