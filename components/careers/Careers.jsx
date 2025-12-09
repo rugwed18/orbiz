@@ -23,7 +23,7 @@ export default function Careers() {
   return (
     <main className="min-h-screen container-padding section-block-padding mt-10 md:mt-0">
       <div className="section-block-padding">
-        <p className="fl1 !text-[18px] md:!text-[32px] flex justify-center pb-8">
+        <p className="fl1 text-center mx-auto title-content-gap md:w-1/2 w-full">
           Orbiz: Where Passion Meets Progress
         </p>
           <p className="fl8 text-justify md:text-center mx-auto md:w-[90%] w-full">
