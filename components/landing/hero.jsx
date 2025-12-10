@@ -45,9 +45,9 @@ export default function Hero() {
             solutions tailored to your specific needs. Let us help you take your
             business to the next level.
           </p>
-          <button className="red-btn mt-0 md:mt-10 mx-auto md:mx-0">
+          <a href="/services" className="red-btn mt-0 md:mt-10 mx-auto md:mx-0">
             Learn More
-          </button>
+          </a>
         </div>
 
         <div className="flex flex-col w-full md:w-1/2 md:h-[475px] 3xl:h-[500px] h-[350px]">

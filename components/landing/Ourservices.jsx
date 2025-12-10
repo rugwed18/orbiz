@@ -30,7 +30,7 @@ export default function Ourservices() {
           {servicesData.map((service) => (
             <div
               key={service.id}
-              className="relative flex flex-col h-full shadow-md hover:shadow-xl transition-shadow duration-300"
+              className="relative flex flex-col h-full md:h-103 shadow-md hover:shadow-xl transition-shadow duration-300"
               style={{
                 backgroundImage:
                   "url(/landing/ourservices/OurServices-bg.webp)",
@@ -63,16 +63,16 @@ export default function Ourservices() {
                 <p className="fl8 mb-4 text-gray-600 leading-relaxed">
                   {service.description}
                 </p>
-
                 <a
                   href={service.href}
-                  className="fl3 inline-flex items-center gap-2 text-[#E31E24] hover:gap-3 transition-all duration-200"
+                  className="fl3 inline-flex absolute md:bottom-8 items-center gap-5 text-[#E31E24] hover:gap-3 transition-all duration-200 "
                 >
-                  Learn More
+                  <span>Learn More</span>
+                  
                   <img
                     src="/landing/ourservices/red-arrow.webp"
                     alt="arrow"
-                    className="w-4 h-4"
+                    className="w-6 h-auto"
                   />
                 </a>
               </div>

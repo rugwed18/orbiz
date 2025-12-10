@@ -29,17 +29,17 @@ export default function Whoweare() {
       <p className="fl1 text-center mx-auto title-content-gap md:w-1/2 w-full">
         Providing Valuable Solution: Accelerating Growth Swiftly
       </p>
-        <p className="fl8 md:w-[70%] w-full mx-auto text-center">
+        <p className="fl8 md:w-[70%] w-full mx-auto text-center title-content-gap">
           At Orbiz, we pride ourselves on delivering high-quality service to
           every client. Our goal is to exceed your expectations and provide you with the best possible experience. We stay up-to-date with the
           latest technological advancements to ensure that our clients have access to the most cutting-edge solutions available.
         </p>
-      <div className="mt-10 md:mt-15">
+      
         <p className="fl1 flex justify-center">Our Strengths</p>
-      </div>
+    
 
-      <div className="w-full flex flex-col  ">
-        <div className="bg-[#FFFFFF] py-8 md:py-12 flex flex-col md:flex-row-reverse gap-12">
+      <div className="w-full flex flex-col section-block-padding">
+        <div className="bg-[#FFFFFF] flex flex-col md:flex-row-reverse gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
               src="/images/Who_1.png"
@@ -62,8 +62,8 @@ export default function Whoweare() {
         </div>
       </div>
 
-      <div className="w-full flex flex-col   ">
-        <div className="bg-[#FFFFFF] py-8 md:py-12 flex flex-col md:flex-row gap-12">
+      <div className="w-full flex flex-col section-block-bottom">
+        <div className="bg-[#FFFFFF] flex flex-col md:flex-row gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
               src="/images/Who_2.png"
@@ -85,8 +85,8 @@ export default function Whoweare() {
         </div>
       </div>
 
-      <div className="w-full flex flex-col  section-block-bottom ">
-        <div className="bg-[#FFFFFF] py-8 md:py-12 flex flex-col md:flex-row-reverse gap-12 ">
+      <div className="w-full flex flex-col section-block-bottom">
+        <div className="bg-[#FFFFFF] flex flex-col md:flex-row-reverse gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
               src="/images/Who_3.png"
