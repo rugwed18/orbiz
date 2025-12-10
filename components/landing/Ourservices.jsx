@@ -26,50 +26,42 @@ export default function Ourservices() {
       </p>
 
       <div className="relative">
-
-        
-        <img
-          src="/images/servicebg.png"
-          className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
-          alt="bg-white-shape"
-        />
-
-       
         <div className="hidden md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 section-block-top relative bg-[#F5F5F5] z-10">
-
           {servicesData.map((service) => (
             <div
               key={service.id}
-              className="relative flex flex-col h-full bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+              className="relative flex flex-col h-full shadow-md hover:shadow-xl transition-shadow duration-300"
+              style={{
+                backgroundImage:
+                  "url(/landing/ourservices/OurServices-bg.webp)",
+              }}
             >
-             
-              <img
-                src="/images/servicetop1.png"
-                alt="card-top-shape"
-                className="absolute top-0 left-0 w-[120px] md:w-[140px] pointer-events-none select-none"
-              />
-
-             
-              <div className="absolute top-3 left-5 md:top-3 md:left-7 w-12 md:w-14 z-10">
+              <div
+                className="absolute md:-top-1 md:-left-1 md:w-35 md:h-19 z-10 flex items-center justify-center"
+                style={{
+                  backgroundImage:
+                    "url(/landing/ourservices/OurServices-top-bg.webp)",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                  backgroundRepeat: "no-repeat",
+                }}
+              >
                 <img
                   src={service.icon}
                   alt={service.title}
-                  className="w-full h-full object-contain"
+                  className="w-auto h-13 object-contain pr-4"
                 />
               </div>
 
-             
               <div className="pt-28 md:pt-32 px-6 pb-6">
-                
                 <h2 className="fl2 mb-3 text-[#1A2B6D]">{service.title}</h2>
 
-               
                 <div className="w-full h-[1px] bg-[#1A2B6D]/20 mb-3"></div>
 
-               
-                <p className="fl8 mb-4 text-gray-600 leading-relaxed">{service.description}</p>
+                <p className="fl8 mb-4 text-gray-600 leading-relaxed">
+                  {service.description}
+                </p>
 
-               
                 <a
                   href={service.href}
                   className="fl3 inline-flex items-center gap-2 text-[#E31E24] hover:gap-3 transition-all duration-200"
@@ -84,11 +76,8 @@ export default function Ourservices() {
               </div>
             </div>
           ))}
-
         </div>
       </div>
-
-
 
       <div className="md:hidden ">
         <div className="w-90 mx-auto relative section-block-padding">
