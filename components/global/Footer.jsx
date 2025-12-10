@@ -68,8 +68,9 @@ export default function Footer() {
             </div>
             {message && (
               <p
-                className={`message ${message.includes("") ? "success" : "error"
-                  }`}
+                className={`message ${
+                  message.includes("") ? "success" : "error"
+                }`}
               >
                 {message}
               </p>
@@ -79,88 +80,88 @@ export default function Footer() {
       </section>
 
       <section className="bg-white section-block-padding container-padding ">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 xl:gap-14">
-            <div className="lg:col-span-1 flex flex-col gap-5">
-              <div className="w-40">
-                <img
-                  src="/orbiz_logo.png"
-                  alt="ORBiZ"
-                  className="w-full h-auto"
-                />
-              </div>
-              <div className="flex gap-4 flex-wrap">
-                {socialLinks.map((social) => (
-                  <a
-                    key={social.name}
-                    href={social.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={social.name}
-                    className="group hover:opacity-90 transition-opacity duration-300"
-                  >
-                    <img
-                      src={social.icon}
-                      alt={social.name}
-                      className="h-8 w-8 hover:scale-101 transition-transform duration-300"
-                    />
-                  </a>
-                ))}
-              </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-10 xl:gap-14">
+          <div className="lg:col-span-1 flex flex-col gap-5">
+            <div className="w-40">
+              <img
+                src="/orbiz_logo.png"
+                alt="ORBiZ"
+                className="w-full h-auto"
+              />
             </div>
-            <div className="flex flex-col gap-3 justify-center items-center inline-block">
-              <h4 className="fl1 mb-4">Company</h4>
-              <ul className="space-y-2">
-                <li>
-                  <a href="/services" className="fl8 hover:text-blue-600">
-                    Our services
-                  </a>
-                </li>
-                <li>
-                  <a href="/about" className="fl8 hover:text-blue-600">
-                    Who we are
-                  </a>
-                </li>
-                <li>
-                  <a href="/careers" className="fl8 hover:text-blue-600">
-                    Career
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div className="flex flex-col gap-3 justify-center items-center inline-block">
-              <h4 className="fl1 mb-4">Links</h4>
-              <ul className="space-y-2">
-                <li>
-                  <a href="/accelerate" className="fl8 hover:text-blue-600">
-                    Accelerate
-                  </a>
-                </li>
-                <li>
-                  <a href="/transform" className="fl8 hover:text-blue-600">
-                    Transform
-                  </a>
-                </li>
-                <li>
-                  <a href="/innovate" className="fl8 hover:text-blue-600">
-                    Innovate
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="flex flex-col gap-3 justify-start items-center inline-block">
-              <h4 className="fl1 mb-4">Contact</h4>
-              <ul className="space-y-2">
-                <li>
-                  <a href="/mailto:contact@orbiz.one" className="fl8">
-                    support@orbiz.com
-                  </a>
-                </li>
-              </ul>
+            <div className="flex gap-4 flex-wrap">
+              {socialLinks.map((social) => (
+                <a
+                  key={social.name}
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={social.name}
+                  className="group hover:opacity-90 transition-opacity duration-300"
+                >
+                  <img
+                    src={social.icon}
+                    alt={social.name}
+                    className="h-8 w-8 hover:scale-101 transition-transform duration-300"
+                  />
+                </a>
+              ))}
             </div>
           </div>
+          <div className="flex flex-col gap-3 justify-center items-center inline-block">
+            <h4 className="fl1 mb-4">Company</h4>
+            <ul className="space-y-2">
+              <li>
+                <a href="/services" className="fl8 hover:text-blue-600">
+                  Our services
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="fl8 hover:text-blue-600">
+                  Who we are
+                </a>
+              </li>
+              <li>
+                <a href="/careers" className="fl8 hover:text-blue-600">
+                  Career
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div className="flex flex-col gap-3 justify-center items-center inline-block">
+            <h4 className="fl1 mb-4">Links</h4>
+            <ul className="space-y-2">
+              <li>
+                <a href="/about" className="fl8 hover:text-blue-600">
+                  Accelerate
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="fl8 hover:text-blue-600">
+                  Transform
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="fl8 hover:text-blue-600">
+                  Innovate
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div className="flex flex-col gap-3 justify-start items-center inline-block">
+            <h4 className="fl1 mb-4">Contact</h4>
+            <ul className="space-y-2">
+              <li>
+                <a href="mailto:contact@orbiz.one" className="fl8">
+                  contact@orbiz.one
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </section>
-      
+
       <div className="w-full h-[1px] bg-[#1A2B6D1F]"></div>
 
       <div className="container-padding py-4 lg:py-12">
@@ -177,9 +178,8 @@ export default function Footer() {
               Privacy Policy
             </a>
           </div>
-
         </div>
       </div>
-    </footer >
+    </footer>
   );
 }
