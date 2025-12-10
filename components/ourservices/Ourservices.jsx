@@ -34,7 +34,7 @@ export default function Ourservices() {
               platform strategy, and let's embark on a journey to elevate your
               business to new heights of digital success.
             </p>
-            <a href="/contact" className="fl7 w-[150px] h-[55px] mt-8 bg-[#1A2B6D] !text-white flex items-center justify-center gap-2 mx-auto md:mx-0">
+            <a href="/contact" className="fl7 w-fit px-8 py-2 mt-8 bg-[#1A2B6D] !text-white flex items-center justify-center gap-2 mx-auto md:mx-0">
               Connect
               <img src="icons\arrow2.svg" alt="arrow" className="w-5 h-5" />
             </a>
@@ -72,7 +72,7 @@ export default function Ourservices() {
               power of the cloud, ensuring your infrastructure scales seamlessly
               to meet the demands of your evolving business landscape.
             </p>
-            <a href="/contact" className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2 mx-auto md:mx-0">
+            <a href="/contact" className="fl7 w-fit px-8 py-2 mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2 mx-auto md:mx-0">
               Connect
               <img src="icons\arrow2.svg" alt="arrow" className="w-5 h-5" />
             </a>
