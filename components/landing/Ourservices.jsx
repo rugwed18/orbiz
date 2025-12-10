@@ -34,6 +34,9 @@ export default function Ourservices() {
               style={{
                 backgroundImage:
                   "url(/landing/ourservices/OurServices-bg.webp)",
+                  backgroundSize: "cover",
+                  
+                  backgroundRepeat: "no-repeat",
               }}
             >
               <div
