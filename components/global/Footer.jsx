@@ -164,7 +164,7 @@ export default function Footer() {
 
       <div className="w-full h-[1px] bg-[#1A2B6D1F]"></div>
 
-      <div className="container-padding py-4 lg:py-12">
+      <div className="container-padding py-2 md:py-4">
         <div className="flex flex-col sm:flex-row items-center justify-between w-full gap-4">
           <p className="fl8">All rights reserved.</p>
           <div className="flex items-center gap-6 sm:gap-10">

@@ -21,12 +21,12 @@ const images = [
 
 export default function Careers() {
   return (
-    <main className="min-h-screen container-padding section-block-padding mt-10 md:mt-0">
-      <div className="section-block-padding">
+    <main className="min-h-screen container-padding section-block-padding">
+      
         <p className="fl1 text-center mx-auto title-content-gap md:w-1/2 w-full">
           Orbiz: Where Passion Meets Progress
         </p>
-        <p className="fl8 text-justify md:text-center mx-auto md:w-[90%] w-full">
+        <p className="fl8 text-justify md:text-center mx-auto md:w-[90%] w-full title-content-gap">
           We highly appreciate individuals who excel in the face of challenges
           and demonstrate a capacity to identify opportunities amid
           transformations. If you possess a fervent enthusiasm for technology
@@ -40,12 +40,12 @@ export default function Careers() {
           value in response to users' requirements, Orbiz offers an ideal
           professional milieu for your aspirations.
         </p>
-        <div className="mt-10 w-full">
+        <div className="w-full">
           <a href="/careers" className="red-btn mx-auto block">Start now</a>
         </div>
-      </div>
+      
 
-      <div className="w-full flex flex-col md:flex-row gap-10">
+      <div className="w-full flex flex-col md:flex-row gap-10 section-block-top">
         <div className="flex flex-col w-full md:w-1/2 relative">
           <div className="relative w-full flex justify-center">
             <div className="relative w-full max-w-lg mx-auto">
@@ -60,9 +60,9 @@ export default function Careers() {
           </div>
         </div>
         <div className="w-full  bg-[#F5F5F5] md:w-1/2 py-4 md:p-10">
-          <div className="w-full px-4">
+          <div className="w-full px-8">
             <p className="fl1 text-center title-content-gap">Join us on this exciting journey</p>
-            <div className=" p-8 bg-white ">
+            <div className=" p-4 bg-white ">
               <div className="flex flex-col md:flex-row gap-4 mb-4">
                 <input
                   type="text"

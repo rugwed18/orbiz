@@ -25,7 +25,7 @@ const leaders = [
 
 export default function Whoweare() {
   return (
-    <main className="min-h-screen section-block-padding container-padding  mt-20">
+    <main className="min-h-screen section-block-padding container-padding">
       <p className="fl1 text-center mx-auto title-content-gap md:w-1/2 w-full">
         Providing Valuable Solution: Accelerating Growth Swiftly
       </p>
@@ -127,7 +127,7 @@ export default function Whoweare() {
                   <img
                     src={leader.image}
                     alt={leader.name}
-                    className="w-40 h-40 rounded-full object-cover"
+                    className="w-25 h-25 rounded-full object-cover"
                   />
                   <div className="text-left">
                     <p className="fl8">{leader.role}</p>

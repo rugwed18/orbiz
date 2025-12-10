@@ -1,7 +1,7 @@
 import BackToTop from "@/components/BackToTop";
 export default function Ourservices() {
   return (
-    <main className="min-h-screen section-block-top my-20 container-padding">
+    <main className="min-h-screen section-block-padding container-padding">
         <p className="fl1 text-center mx-auto title-content-gap md:w-1/2 w-full">
           Partner with us, and let Innovation be the Propulsive force
         </p>

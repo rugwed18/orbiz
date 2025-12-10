@@ -60,12 +60,12 @@ export default function Ourservices() {
 
                 <div className="w-full h-[1px] bg-[#1A2B6D]/20 mb-3"></div>
 
-                <p className="fl8 mb-4 text-gray-600 leading-relaxed">
+                <p className="fl8 text-gray-600 h-35">
                   {service.description}
                 </p>
                 <a
                   href={service.href}
-                  className="fl3 inline-flex absolute md:bottom-8 items-center gap-5 text-[#E31E24] hover:gap-3 transition-all duration-200 "
+                  className="fl3 w-full flex justify-between items-center text-[#E31E24] gap-2 hover:gap-3 transition-all duration-200 "
                 >
                   <span>Learn More</span>
                   
