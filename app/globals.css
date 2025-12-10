@@ -374,12 +374,7 @@ body {
   filter: invert(56%) sepia(25%) saturate(1094%) hue-rotate(360deg)
     brightness(92%) contrast(95%);
 }
-.testimonial-slick .slick-prev::before {
-  background-image: url('/icons/global/left-chev.svg');
-}
-.testimonial-slick .slick-next::before {
-  background-image: url('/icons/global/right-chev.svg');
-}
+
 
 @media screen and (max-width: 1400px) {
   .testimonial-slick .slick-list .slick-track {

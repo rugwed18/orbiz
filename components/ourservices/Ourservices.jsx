@@ -36,7 +36,7 @@ export default function Ourservices() {
             </p>
             <a href="/contact" className="fl7 w-[150px] h-[55px] mt-8 bg-[#1A2B6D] !text-white flex items-center justify-center gap-2 mx-auto md:mx-0">
               Connect
-              <img src="icons\arrow2.svg" className="w-5 h-5" />
+              <img src="icons\arrow2.svg" alt="arrow" className="w-5 h-5" />
             </a>
           </div>
         </div>
@@ -74,7 +74,7 @@ export default function Ourservices() {
             </p>
             <a href="/contact" className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2 mx-auto md:mx-0">
               Connect
-              <img src="icons\arrow2.svg" className="w-5 h-5" />
+              <img src="icons\arrow2.svg" alt="arrow" className="w-5 h-5" />
             </a>
           </div>
         </div>
@@ -130,7 +130,7 @@ export default function Ourservices() {
             </p>
             <a href="/contact" className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2 mx-auto md:mx-0 ">
               Connect
-              <img src="icons\arrow2.svg" className="w-5 h-5" />
+              <img src="icons\arrow2.svg" alt="arrow" className="w-5 h-5" />
             </a>
           </div>
         </div>
@@ -167,7 +167,7 @@ export default function Ourservices() {
             </p>
             <a href="/contact" className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2 mx-auto md:mx-0">
               Connect
-              <img src="icons\arrow2.svg" className="w-5 h-5" />
+              <img src="icons\arrow2.svg" alt="arrow" className="w-5 h-5" />
             </a>
           </div>
         </div>
@@ -221,7 +221,7 @@ export default function Ourservices() {
             </p>
             <a href="/contact" className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2 mx-auto md:mx-0">
               Connect
-              <img src="icons\arrow2.svg" className="w-5 h-5" />
+              <img src="icons\arrow2.svg" alt="arrow" className="w-5 h-5" />
             </a>
           </div>
         </div>
@@ -259,7 +259,7 @@ export default function Ourservices() {
             </p>
             <a href="/contact" className="fl7 w-[150px] h-[48px] mt-8 flex items-center justify-center bg-[#1A2B6D] !text-white gap-2 mx-auto md:mx-0">
               Connect
-              <img src="icons\arrow2.svg" className="w-5 h-5" />
+              <img src="icons\arrow2.svg" alt="arrow" className="w-5 h-5" />
             </a>
           </div>
         </div>
