@@ -121,7 +121,7 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <a href="/career" className="fl8 hover:text-blue-600">
+                  <a href="/careers" className="fl8 hover:text-blue-600">
                     Career
                   </a>
                 </li>
