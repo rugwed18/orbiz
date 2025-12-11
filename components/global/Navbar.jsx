@@ -66,14 +66,14 @@ export default function Navbar() {
                 className="md:hidden flex flex-col gap-1"
                 onClick={() => setMenuOpen(!menuOpen)}>
 
-                <span className="block w-6 h-[2px] bg-[#1A2B6D]"></span>
-                <span className="block w-6 h-[2px] bg-[#1A2B6D]"></span>
-                <span className="block w-6 h-[2px] bg-[#1A2B6D]"></span>
+                <span className="block w-6 h-0.5 bg-[#1A2B6D]"></span>
+                <span className="block w-6 h-0.5 bg-[#1A2B6D]"></span>
+                <span className="block w-6 h-0.5 bg-[#1A2B6D]"></span>
             </button>
 
             <div
                 className={`
-                    absolute left-0 top-[75px] w-full md:hidden bg-[#F5F5F5]  flex flex-col gap-4 py-6 px-8 transition-all duration-300 origin-top
+                    absolute left-0 top-18.5 w-full md:hidden bg-[#F5F5F599]  flex flex-col gap-4 py-6 px-8 transition-all duration-300 origin-top
                     ${menuOpen ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0 pointer-events-none"}
                 `}
             >
@@ -86,7 +86,7 @@ export default function Navbar() {
                             transition-all duration-200
                             ${activeLink === item.name
                                 ? "text-[#1A2B6D] font-semibold"
-                                : "text-[#000000] "
+                                : "text-[#000000]"
                             }
                         `}
                     >
