@@ -47,11 +47,11 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row md:justify-between md:max-h-16">
               <div className="flex flex-row items-center">
                 <div className="size-4 md:size-6.5 flex justify-center items-center">
-                <img
-                  src="/landing/email.png"
-                  alt="email"
-                  className="w-full h-auto flex-shrink-0"
-                />
+                  <img
+                    src="/landing/email.png"
+                    alt="email"
+                    className="w-full h-auto flex-shrink-0"
+                  />
                 </div>
                 <input
                   type="email"
@@ -115,50 +115,50 @@ export default function Footer() {
               ))}
             </div>
           </div>
-          <div className="flex flex-row md:justify-between justify-around mx-0 ">
-          <div className="flex flex-col gap-3 justify-center items-center">
-            <h4 className="fl5 mb-4">Company</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="/services" className="fl4 hover:text-blue-600">
-                  Our services
-                </a>
-              </li>
-              <li>
-                <a href="/about" className="fl4 hover:text-blue-600">
-                  Who we are
-                </a>
-              </li>
-              <li>
-                <a href="/careers" className="fl4 hover:text-blue-600">
-                  Career
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="flex flex-col gap-3 justify-center items-center ">
-            <h4 className="fl5 mb-4">Links</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="/about" className="fl4 hover:text-blue-600">
-                  Accelerate
-                </a>
-              </li>
-              <li>
-                <a href="/about" className="fl4 hover:text-blue-600">
-                  Transform
-                </a>
-              </li>
-              <li>
-                <a href="/about" className="fl4 hover:text-blue-600">
-                  Innovate
-                </a>
-              </li>
-            </ul>
-          </div>
+          <div className="flex flex-row md:justify-between gap-50 md:gap-0 sm:gap-0">
+            <div className="flex flex-col gap-3 justify-center items-center">
+              <h4 className="fl5 mb-0 md:mb-4">Company</h4>
+              <ul className="space-y-2">
+                <li>
+                  <a href="/services" className="fl4 hover:text-blue-600">
+                    Our services
+                  </a>
+                </li>
+                <li>
+                  <a href="/about" className="fl4 hover:text-blue-600">
+                    Who we are
+                  </a>
+                </li>
+                <li>
+                  <a href="/careers" className="fl4 hover:text-blue-600">
+                    Career
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div className="flex flex-col gap-3 justify-center items-center ">
+              <h4 className="fl5 mb-0 md:mb-4">Links</h4>
+              <ul className="space-y-2">
+                <li>
+                  <a href="/about" className="fl4 hover:text-blue-600">
+                    Accelerate
+                  </a>
+                </li>
+                <li>
+                  <a href="/about" className="fl4 hover:text-blue-600">
+                    Transform
+                  </a>
+                </li>
+                <li>
+                  <a href="/about" className="fl4 hover:text-blue-600">
+                    Innovate
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="flex flex-col gap-3 items-center ">
-            <h4 className="fl5 mb-4">Contact</h4>
+            <h4 className="fl5 mb-0 md:mb-4">Contact</h4>
             <ul className="space-y-2">
               <li>
                 <a href="mailto:contact@orbiz.one" className="fl4">
