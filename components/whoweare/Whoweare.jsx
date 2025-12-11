@@ -114,17 +114,17 @@ export default function Whoweare() {
         </div>
       </div>
 
-      <div className="bg-[#F5F5F5] relative mt-6 md:p-10">
-        <p className="fl1 flex justify-center title-content-gap mb-12">
+      <div className="bg-[#F5F5F5] relative mt-6 md:p-10 ">
+        <p className="fl1 flex justify-center title-content-gap pt-4 mb-12">
           Leadership Team
         </p>
 
-        <div className="w-full flex justify-center">
-          <div className="grid w-full grid-cols-1 md:grid-cols-2 gap-10 md:gap-20">
+        <div className="w-full flex justify-center ">
+          <div className="grid w-full grid-cols-1 md:grid-cols-2 gap-6 mb-6  md:gap-20">
             {leaders.map((leader) => (
               <div
                 key={leader.id}
-                className="bg-white p-8 rounded-[2px] flex flex-col gap-6"
+                className="bg-white p-6 rounded-[2px] w-[90%] flex flex-col mx-auto gap-6"
               >
                 <div className="flex gap-6 md:gap-10 items-center  justify-center">
                   <img
@@ -137,7 +137,7 @@ export default function Whoweare() {
                     <p className="fl4">{leader.role}</p>
                   </div>
                 </div>
-                <div className="w-full h-[1px] bg-[#1A2B6D4D] mb-6"></div>
+                <div className="w-full h-[1px] bg-[#1A2B6D4D] "></div>
                 <p className="fl4 text-justify">{leader.desc}</p>
               </div>
             ))}
