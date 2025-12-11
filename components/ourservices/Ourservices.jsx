@@ -84,7 +84,7 @@ export default function Ourservices() {
          <img
             src="/ourServices/OurSer-top.webp"
             alt="top-box-image"
-            className="absolute md:h-17.5 md:w-45 h-9 w-24 top-5 md:top-6 left-0"
+            className="absolute md:h-17.5 md:w-45 h-9 w-24 top-5 md:top-6 -left-10"
           />
         <img
           src="/images/service7.jpg"
@@ -102,7 +102,7 @@ export default function Ourservices() {
            <img
             src="/ourServices/ourSer-bottom.webp"
             alt="bottom-box-image"
-            className="absolute bottom-7 right-0 hidden md:block"
+            className="absolute bottom-7 -right-10 hidden md:block"
           />
       </div>
 

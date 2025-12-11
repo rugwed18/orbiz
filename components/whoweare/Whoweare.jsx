@@ -25,20 +25,23 @@ const leaders = [
 
 export default function Whoweare() {
   return (
-    <main className="min-h-screen section-block-padding container-padding">
-      <p className="fl1 text-center mx-auto title-content-gap md:w-1/2 w-full">
-        Providing Valuable Solution: Accelerating Growth Swiftly
-      </p>
-        <p className="fl4 md:w-[70%] w-full mx-auto text-center title-content-gap">
-          At Orbiz, we pride ourselves on delivering high-quality service to
-          every client. Our goal is to exceed your expectations and provide you with the best possible experience. We stay up-to-date with the
-          latest technological advancements to ensure that our clients have access to the most cutting-edge solutions available.
+    <main className="min-h-screen section-block-padding ">
+      <div className="container-padding">
+        <p className="fl1 text-center mx-auto title-content-gap md:w-1/2 w-full">
+          Providing Valuable Solution: Accelerating Growth Swiftly
         </p>
-      
-        <p className="fl1 flex justify-center">Our Strengths</p>
-    
+        <p className="fl4 md:w-[75%] w-full mx-auto text-justify ">
+          At Orbiz, we pride ourselves on delivering high-quality service to
+          every client. Our goal is to exceed your expectations and provide you
+          with the best possible experience. We stay up-to-date with the latest
+          technological advancements to ensure that our clients have access to
+          the most cutting-edge solutions available.
+        </p>
+      </div>
 
-      <div className="w-full flex flex-col section-block-padding">
+      <p className="fl1 flex justify-center section-block-top py-5 md:py-10 3xl:py-16">Our Strengths</p>
+
+      <div className="w-full flex flex-col section-block-buttom  container-padding">
         <div className="bg-[#FFFFFF] flex flex-col md:flex-row-reverse gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
@@ -62,7 +65,7 @@ export default function Whoweare() {
         </div>
       </div>
 
-      <div className="w-full flex flex-col section-block-bottom">
+      <div className="w-full flex flex-col section-block-bottom container-padding">
         <div className="bg-[#FFFFFF] flex flex-col md:flex-row gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
@@ -85,7 +88,7 @@ export default function Whoweare() {
         </div>
       </div>
 
-      <div className="w-full flex flex-col section-block-bottom">
+      <div className="w-full flex flex-col section-block-bottom container-padding">
         <div className="bg-[#FFFFFF] flex flex-col md:flex-row-reverse gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
@@ -111,7 +114,7 @@ export default function Whoweare() {
         </div>
       </div>
 
-      <div className="bg-[#F5F5F5] relative mt-6 p-4 md:p-10">
+      <div className="bg-[#F5F5F5] relative mt-6 md:p-10">
         <p className="fl1 flex justify-center title-content-gap mb-12">
           Leadership Team
         </p>
@@ -130,10 +133,8 @@ export default function Whoweare() {
                     className="w-25 h-25 rounded-full object-cover"
                   />
                   <div className="text-left">
-                    
                     <h3 className="fl2">{leader.name}</h3>
                     <p className="fl4">{leader.role}</p>
-                    
                   </div>
                 </div>
                 <div className="w-full h-[1px] bg-[#1A2B6D4D] mb-6"></div>
@@ -144,11 +145,10 @@ export default function Whoweare() {
         </div>
         <div className="">
           <img
-                    src="\images\top3.png"
-                    alt="comma" className='absolute -top-8 sm:-top-9  md:-top-15 right-0 w-20 h-18 md:w-24 md:h-20 lg:w-40 lg:h-30'>
-
-                </img>
-
+            src="\images\top3.png"
+            alt="comma"
+            className="absolute -top-8 sm:-top-9  md:-top-15 right-0 w-20 h-18 md:w-24 md:h-20 lg:w-40 lg:h-30"
+          ></img>
         </div>
       </div>
 

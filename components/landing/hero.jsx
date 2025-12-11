@@ -49,17 +49,17 @@ export default function Hero() {
   const [currentSet, setCurrentSet] = useState(0);
   const [isTransitioning, setIsTransitioning] = useState(false);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setIsTransitioning(true);
-  //     setTimeout(() => {
-  //       setCurrentSet((prev) => (prev + 1) % imageSets.length);
-  //       setIsTransitioning(false);
-  //     }, 500);
-  //   }, 4000);
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setIsTransitioning(true);
+      setTimeout(() => {
+        setCurrentSet((prev) => (prev + 1) % imageSets.length);
+        setIsTransitioning(false);
+      }, 500);
+    }, 4000);
 
-  //   return () => clearInterval(interval);
-  // }, []);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
     <section className="section-block-top md:pb-58 3xl:pb-72 pl-10 md:pl-18 2xl:pl-18 3xl:pl-22 relative">

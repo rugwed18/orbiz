@@ -45,7 +45,7 @@ export default function Footer() {
             className="md:w-full w-75 mx-auto bg-white p-2"
           >
             <div className="flex flex-col md:flex-row md:justify-between md:max-h-16">
-              <div className="flex flex-row items-center">
+              <div className="flex flex-row items-center md:pl-5 pl-0">
                 <div className="size-4 md:size-6.5 flex justify-center items-center">
                   <img
                     src="/landing/email.png"
@@ -59,7 +59,7 @@ export default function Footer() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="flex-1 px-4 py-6 md:py-0 outline-none"
+                  className="flex-1 px-4 py-4 md:py-0 outline-none"
                 />
               </div>
               <button
