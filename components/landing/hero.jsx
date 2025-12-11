@@ -68,7 +68,7 @@ export default function Hero() {
           <h1 className="fl1">
             Innovation to Execution: Accelerate your Technology Development
           </h1>
-          <p className="fl4">
+          <p className="fl4 text-justify">
             At Orbiz, we are passionate about helping businesses like yours
             leverage technology to drive growth and improve efficiency. Our team
             of experienced consultants and engineers provide customized IT

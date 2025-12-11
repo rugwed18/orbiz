@@ -18,7 +18,7 @@ export default function Ourservices() {
   return (
     <main className="section-block-padding bg-[#F5F5F5] container-padding">
       <h1 className="fl1 text-center title-content-gap">Our Services</h1>
-      <p className="fl4 text-center md:max-w-1/2 mx-auto">
+      <p className="fl4 text-center md:max-w-1/2 mx-auto text-justify">
         We offer a range of IT consulting and services to help your business
         succeed. Whether you need cloud solutions, managed IT services, disaster
         recovery, cloud desktop, network solutions, or support consulting, we've
@@ -39,7 +39,7 @@ export default function Ourservices() {
               }}
             >
               <div
-                className="absolute -top-2 -left-2 md:w-35 md:h-19 2xl:w-46.5 2xl:h-25.5 z-10 flex items-center justify-center"
+                className="absolute -top-2 -left-1.5 md:w-35 md:h-19 2xl:w-46.5 2xl:h-25.5 z-10 flex items-center justify-center"
                 style={{
                   backgroundImage:
                     "url(/landing/ourservices/OurServices-top-bg.webp)",
@@ -60,7 +60,7 @@ export default function Ourservices() {
 
                 <div className="w-full h-[1px] bg-[#1A2B6D]/20 mb-3"></div>
 
-                <p className="fl4 text-gray-600 h-35">{service.description}</p>
+                <p className="fl4 text-gray-600 h-35 text-justify">{service.description}</p>
                 <a
                   href={service.href}
                   className="fl3 w-full flex justify-between items-center text-[#E31E24] gap-2 hover:gap-3 transition-all duration-200 "
