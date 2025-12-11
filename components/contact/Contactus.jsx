@@ -1,3 +1,5 @@
+"use client"
+
 import LeafletMap from "@/components/map/LeafletMap";
 import BackToTop from "@/components/BackToTop";
 
