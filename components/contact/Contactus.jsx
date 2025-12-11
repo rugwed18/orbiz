@@ -9,7 +9,7 @@ export default function Contactus() {
         <div className="w-full flex flex-col md:flex-row gap-10 items-center">
           <div className="w-full md:w-[40%] flex flex-col gap-12 items-center ">
             <div className="flex flex-col gap-4">
-              <h2 className="fl1">Get in touch with us</h2>
+              <h2 className="fl2">Get in touch with us</h2>
 
               <p className="fl4 max-w-[350px] text-justify ">
                 Thank you for your interest in Orbiz. Whether you’re a client,
@@ -21,10 +21,10 @@ export default function Contactus() {
               <div className="flex items-center gap-3">
                 <img
                   src="icons/client.svg"
-                  className="w-8 h-8"
+                  className="size-6 md:size-8"
                   alt="client icon"
                 />
-                <h3 className="fl1">Clients</h3>
+                <h3 className="fl2">Clients</h3>
               </div>
 
               <p className="fl4 max-w-[350px] text-justify ">
@@ -112,7 +112,7 @@ export default function Contactus() {
               <span>Learn More</span>
 
               <img
-                src="/landing/ourservices/red-arrow.webp"
+                src="/landing/ourservices/arrow3.svg"
                 alt="arrow"
                 className="w-6 h-auto !text-white"
               />
