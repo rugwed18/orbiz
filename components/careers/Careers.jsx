@@ -65,7 +65,7 @@ export default function Careers() {
         </div>
         <div className="bg-white md:w-1/2 w-full">
         <div className="bg-[#F5F5F5] py-4 md:p-10">
-          <div className="mx-6 md:mx-0">
+          <div className="mx-4 md:mx-0">
             <p className="fl2 text-center title-content-gap">Join us on this exciting journey</p>
             <div className="p-4 bg-white ">
               <div className="flex flex-col md:flex-row gap-4 mb-4">
