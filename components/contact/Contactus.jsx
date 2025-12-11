@@ -1,7 +1,7 @@
-"use client"
+import dynamic from 'next/dynamic';
 
-import LeafletMap from "@/components/map/LeafletMap";
-import BackToTop from "@/components/BackToTop";
+const LeafletMap = dynamic(() => import('@/components/map/LeafletMap'), { ssr: false });
+const BackToTop = dynamic(() => import("@/components/BackToTop"), { ssr: false });
 
 export default function Contactus() {
   return (
