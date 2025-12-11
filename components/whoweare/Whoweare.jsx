@@ -25,7 +25,7 @@ const leaders = [
 
 export default function Whoweare() {
   return (
-    <main className="min-h-screen section-block-padding ">
+    <main className="min-h-screen section-block-top">
       <div className="container-padding">
         <p className="fl1 text-center mx-auto title-content-gap md:w-1/2 w-full">
           Providing Valuable Solution: Accelerating Growth Swiftly
@@ -41,7 +41,7 @@ export default function Whoweare() {
 
       <p className="fl1 flex justify-center section-block-top py-5 md:py-10 3xl:py-16">Our Strengths</p>
 
-      <div className="w-full flex flex-col section-block-buttom  container-padding">
+      <div className="w-full flex flex-col section-block-bottom container-padding">
         <div className="bg-[#FFFFFF] flex flex-col md:flex-row-reverse gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img

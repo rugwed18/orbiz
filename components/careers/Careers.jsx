@@ -27,7 +27,7 @@ export default function Careers() {
   return (
     <main className="min-h-screen  section-block-padding">
       
-        <p className="fl1 text-center mx-auto container-padding title-content-gap md:w-1/2 w-full">
+        <p className="fl1 text-center mx-auto title-content-gap md:w-1/2 w-full">
           Orbiz: Where Passion Meets Progress
         </p>
         <p className="fl4 text-justify mx-auto md:w-[90%] w-full container-padding title-content-gap">
@@ -45,7 +45,7 @@ export default function Careers() {
           professional milieu for your aspirations.
         </p>
         <div className="w-full">
-          <a href="/careers" className="red-btn mx-auto block">Start now</a>
+          <a href="/careers" className="red-btn mt-10 md:mt-18 mx-auto block">Start now</a>
         </div>
       
 
