@@ -100,7 +100,7 @@ export default function Contactus() {
                 <img src="/icons/job.svg" className="size-7" alt="Job Icon" />
                 <h3 className="fl2 !text-white">Job Seekers</h3>
               </div>
-              <p className="fl4 !text-white ">
+              <p className="fl4 !text-white text-justify">
                 Please refer following link to know more about Orbiz culture and
                 career opportunities.
               </p>
@@ -129,13 +129,10 @@ export default function Contactus() {
                 />
                 <h3 className="fl2 !text-white">Head Office</h3>
               </div>
-              <p className="fl4 !text-white ">
+              <p className="fl4 !text-white text-justify">
                 Orbiz Analytics India Pvt. Ltd.
-                <br />
                 Plot No. 52, Suman Ankur complex,
-                <br />
-                Shayadri Farm, Baner Road, Baner
-                <br />
+                Shayadri Farm, Baner Road, Baner,
                 Pune 411045
               </p>
             </div>
