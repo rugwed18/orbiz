@@ -45,7 +45,7 @@ export default function Whoweare() {
         <div className="bg-[#FFFFFF] flex flex-col md:flex-row-reverse gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="/images/Who_1.png"
+              src="/images/who_1.png"
               alt="Platform Strategy"
               className="w-[55%] object-contain "
             />
@@ -69,7 +69,7 @@ export default function Whoweare() {
         <div className="bg-[#FFFFFF] flex flex-col md:flex-row gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="/images/Who_2.png"
+              src="/images/who_2.png"
               alt="Platform Strategy"
               className="w-[55%] object-contain "
             />
@@ -92,7 +92,7 @@ export default function Whoweare() {
         <div className="bg-[#FFFFFF] flex flex-col md:flex-row-reverse gap-12">
           <div className="w-full md:w-1/2 flex justify-center">
             <img
-              src="/images/Who_3.png"
+              src="/images/who_3.png"
               alt="Platform Strategy"
               className="w-[55%] object-contain "
             />

@@ -73,7 +73,7 @@ export default function Navbar() {
 
             <div
                 className={`
-                    absolute left-0 top-18.5 w-full md:hidden bg-[#F5F5F599]  flex flex-col gap-4 py-6 px-8 transition-all duration-300 origin-top
+                    absolute left-0 top-16 w-full md:hidden bg-[#00000015] backdrop-blur-[12px] rounded-b-[10px] flex flex-col gap-4 py-6 px-8 transition-all duration-300 origin-top
                     ${menuOpen ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0 pointer-events-none"}
                 `}
             >
