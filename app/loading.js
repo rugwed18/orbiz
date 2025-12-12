@@ -1,4 +1,4 @@
-import PageLoader from "../components/global/PageLoader.jsx"
+import Loader from "../components/global/Loaderv2"
 export default function Loading() {
-  return <PageLoader />;
+  return <Loader />;
 }
