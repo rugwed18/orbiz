@@ -44,6 +44,14 @@ export default function Navbar() {
                         alt="Orbiz"
                         width={100}
                         height={50}
+                        className="hidden md:block"
+                    />
+                     <Image
+                        src="/orbiz_logo.png"
+                        alt="Orbiz"
+                        width={80}
+                        height={40}
+                        className="md:hidden block"
                     />
                 </Link>
             </div>
@@ -85,8 +93,8 @@ export default function Navbar() {
                             w-full text-left text-lg py-2
                             transition-all duration-200
                             ${activeLink === item.name
-                                ? "text-[#1A2B6D] font-semibold"
-                                : "text-[#000000]"
+                                ? "text-[#1A2B6D] text-[12px] md:text-[18px] font-poppins-medium"
+                                : "text-[#000000] text-[12px] md:text-[18px] font-poppins-medium"
                             }
                         `}
                     >

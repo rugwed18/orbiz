@@ -1,14 +1,14 @@
 "use client";
 export default function Connect() {
   return (
-    <section className="flex flex-col md:flex-row  md:order-1 order-2 w-full gap-10 text-center md:text-left section-block-padding container-padding">
-      <div className="flex flex-col w-full md:w-1/2 justify-between">
+    <section className="flex flex-col md:flex-row  md:order-1 order-2 w-full gap-10 text-center md:text-left section-block-padding px-0 md:px-18 2xl:px-18 3xl:px-22">
+      <div className="flex flex-col w-full md:w-1/2 justify-between ">
         <div >
           <h1 className="fl1 md:w-[80%] w-full title-content-gap">
-            Ready to take your business to the next level?
+            Ready to take your business <br />to the next level?
           </h1>
           <p className="fl4 md:w-[80%] w-full">
-            Contact us today to learn how we can help you achieve your
+            Contact us today to learn how we can help you <br /> achieve your
             technology goals.
           </p>
         </div>
@@ -17,7 +17,7 @@ export default function Connect() {
         </a>
       </div>
 
-      <div className="md:w-1/2 w-full">
+      <div className="md:w-1/2 w-full px-10 md:px-0 2xl:px-0 3xl:px-0">
         <img
           src="/landing/Connect-landing.webp"
           alt="Connect-image"
