@@ -80,7 +80,7 @@ export default function Ourservices() {
       </div>
 
       <div className="md:hidden ">
-        <div className="w-90 mx-auto relative section-block-padding">
+        <div className="w-90% mx-auto relative section-block-padding">
           <Swiper
             ref={swiperRef}
             modules={[Pagination]}
