@@ -120,7 +120,7 @@ export default function Ourservices() {
             {servicesData.map((service) => (
               <SwiperSlide key={service.id} className="w-auto">
                 <div
-                  className="relative flex flex-col h-full shadow-[0_0_15px_10px_rgba(26,43,109,0.12)] hover:shadow transition-shadow duration-400 p-6 gap-6 "
+                  className="relative flex flex-col h-75 md:h-full shadow-[0_0_15px_10px_rgba(26,43,109,0.12)] hover:shadow transition-shadow duration-400 p-6 gap-6 "
                   style={{
                     backgroundImage:
                       "url(/landing/ourservices/OurServices-bg.webp)",
